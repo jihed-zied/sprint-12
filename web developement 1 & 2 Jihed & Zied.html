@@ -1,0 +1,139 @@
+<!--
+
+Question 1-
+<img></img>
+Our img tag doesn't have a src! Add one using jQuery!
+Answer 1 
+$('img').attr('src','https://images-na.ssl-images-amazon.com/images/I/81YPl-0kGYL.jpg')
+
+
+Question 2 
+What will happen when I put the following where 1 is?
+
+$('button#go').on('click', function(){ $('p#output').text( $('input#color').val() ).css('color', 'red'); }); 
+Answer 2 
+Once the button with id "go" is clicked the value of the input will replace the text of the paragraph with "output" id, with a red color.
+
+Question 3 
+I want to get an alert every time someone clicks on a button. But I don't know how! Show me how below!
+Answer 3
+$('button').on('click', function () {
+	alert("Hi There !!!")}
+	)
+
+Question 4
+What does .append() do?
+Answer 4
+A - Insert content to the end of an element.
+  
+Question 5
+$('#secret').hide() 
+
+Question 6
+$(body).css(background-color, 'green')
+This wont work! Why? Select all that apply.
+Answer 6 
+A - body is not in a string
+C - the background-color is not in a string
+
+Question 7
+I want to change the background color of the body to red using jQuery. How would I do this?
+Answer 7 
+$('body').css('background-color', 'red')
+
+Question 8 
+I want to append a new list item of thing four. How would I do that?
+Answer 8
+
+
+$('ol').append('<li>Here is thing four.</li>')
+	
+
+//////////////////////////////////////////////////////////////   WEB DEVELOPMENT 2   ////////////////////////////////////////
+Question1
+What message will eventually be alerted? After how long?
+Answer1
+F-  Bob says hi, immediately
+
+
+Question 2
+Write a line of code that uses .call (from Function.prototype.call) to alert the string "Alice says hello!"
+Answer
+sayHello.call(alice);
+
+Question 3
+After running the following code, what will be the value of result?
+Answer 3
+The result will be 20
+
+Question 4 
+After running the following code, what will be the value of result?
+Answer 4 
+C - "Hi I am window"
+
+Question 5
+After running the following code, what will be the value of result?
+Answer 5
+B - 20
+
+Question 6
+What message will eventually be alerted? After how long?
+Answer 6
+C - Alice says hi, after 1 second
+
+Question 7
+Which of the following are reasons why we might reuse code?
+Answer 7
+A - modularize our code for reuse and composition
+
+
+/////////////////////////////////////////////////    GIT    //////////////////////
+Question 1
+What git command will take a project on Github and put it on your local machine?
+Answer 1 
+C - git clone
+
+
+Question 2 
+What git command would you use to see the current state of the project, or to see what is not staged?
+Answer 2
+B - git status
+
+Question 3 
+Which command would you use to remove all of the '.json' files from the current directory?
+Answer 3
+C - rm *.json
+
+Question 4 
+Which of these commands will delete a directory named 'config' from your current one.
+Answer 4
+B - rm config
+Question 5  
+
+Answer 5
+
+Question 6
+Which of the following commands allows you to specify the parent repo from which you forked your current local copy.
+Answer 6
+B - git remote
+
+Question 7 
+How do you rename your "config" folder to "setup" so instead of this
+Answer 7
+$ git mv config setup
+B - Using the "mv" command, I move config to setup.
+
+
+Question 8 
+In the terminal, how would you move up one directory
+Answer 8
+1 - cd ..
+
+Other Question 8
+From the command-line, how would you move from the "db/" directory to the "public/" directory in a project folder that looks like this?
+Other Answer 8
+2 - cd ../../public
+
+
+
+
